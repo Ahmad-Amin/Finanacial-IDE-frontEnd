@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .font-nunito {
+      font-family: "Nunito Sans", "Times New Roman", Times, serif;
+    }
+    .text-blue-custom {
+      color: #BDDAEF
+    }
+    .border-blue-custom {
+      border-color: #BDDAEF
+    }
+    .bg-green-custom {
+      background-color: #DDEAD5;
+    }
+    .w-90s {
+      width: 90vw;
+    }
+    .w-5p {
+      width: 5%;
+    }
+    .w-10p {
+      width: 10%;
+    }
+    .w-15p {
+      width: 15%;
+    }
+    .w-20p {
+      width: 20%;
+    }
+    .w-25p {
+      width: 25%;
+    }
+    .w-95p {
+      width: 95%;
+    }
+    .w-98p {
+      width: 98.5%;
+    }
+    .h-6p {
+      height: 6%;
+    }
+    .h-8p {
+      height: 8%;
+    }
+    .h-10p {
+      height: 10%;
+    }
+    .h-25p {
+      height: 25%;
+    }
+    .h-26p {
+      height: 26%;
+    }
+    .h-40p {
+      height: 40%;
+    }
+    .h-44p {
+      height: 44%;
+    }
+    .h-90p {
+      height: 90%;
+    }
+    .min-w-25p {
+      min-width: 25%;
+    }
+    .min-h-10s {
+      min-height: 10vh;
+    }
+    .min-h-35s {
+      min-height: 35vh;
+    }
+    .min-h-40s {
+      min-height: 40vh;
+    }
+    .min-h-6p {
+      min-height: 6%;
+    }
+    .min-h-8p {
+      min-height: 8%;
+    }
+    .min-h-10p {
+      min-height: 10%;
+    }
+    .min-h-20p {
+      min-height: 25%;
+    }
+    .min-h-25p {
+      min-height: 25%;
+    }
+    .min-h-26p {
+      min-height: 26%;
+    }
+    .min-h-40p {
+      min-height: 40%;
+    }
+    .min-h-44p {
+      min-height: 44%;
+    }
+    .min-h-83p {
+      min-height: 83%;
+    }
+    .min-h-90p {
+      min-height: 90%;
+    }
+    .border-1 {
+      border-width: 1px;
+    }
+  }
