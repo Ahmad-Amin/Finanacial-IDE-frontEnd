@@ -12,8 +12,11 @@ import usericon from "../assets/usericon.svg";
 
 const SideBar = () => {
   const [analyzeButtons, toggleAnalyzeButtons] = useState(true);
+
   return (
-    <div className="sidebarcontainer">
+    
+    <div className="sidebarcontainer ">
+      
       {/*Logo*/}
       <h1 className=" text-white font-extrabold text-xs lg:text-2xl 2xl:text-4xl text-center pt-4 pr-1 h-1/6 flex-shrink-0">
         ZEROES

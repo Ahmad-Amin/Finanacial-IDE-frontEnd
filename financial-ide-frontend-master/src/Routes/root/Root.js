@@ -4,6 +4,7 @@ import { useState } from "react";
 
 import SideBar from "../../components/sidebar";
 import Topbar from "../../components/Topbar";
+import Topbar2 from "../../components/Topbar2";
 import uparrowicon from "../../assets/uparrow.svg";
 import addicon from "../../assets/addicon.svg";
 import Assumption from "../../components/Assumption";
@@ -28,14 +29,16 @@ const Root = () => {
   return (
     <>
       <div className="flex flex-shrink-0 flex-row">
-        <div className="sidebarcontainer">
+        <div className=" sidebarcontainer ">
           <SideBar />
         </div>
-        <div className="flex flex-shrink-0 justify-end">
+        
+        <div className="flex flex-initial justify-end">
           <div className="flex flex-shrink-0 overflow-auto w-90s">
             <div className="mainwindowcontainer flex-col">
-              <div className="flex flex-shrink-0 h-8p border-b-2">
-                <Topbar />
+              <div className=" border-b-2">
+                {/* <Topbar /> */}
+                <Topbar2 />
               </div>
               <div className="flex flex-shrink-0 justify-center items-center min-h-20p border-b-2">
                 <div className="flex flex-shrink-0 flex-col w-98p min-h-90p rounded-md my-4 bg-gray-100">
